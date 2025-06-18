@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,12 +117,12 @@
             border-radius: 50px;
             font-weight: bold;
             transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
         }
 
         .section {
@@ -319,7 +320,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
             animation: shine 3s infinite;
         }
 
@@ -378,6 +379,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -385,8 +387,13 @@
         }
 
         @keyframes shine {
-            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+            0% {
+                transform: translateX(-100%) translateY(-100%) rotate(45deg);
+            }
+
+            100% {
+                transform: translateX(100%) translateY(100%) rotate(45deg);
+            }
         }
 
         .floating-elements {
@@ -429,18 +436,37 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(180deg); }
+
+            0%,
+            100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(180deg);
+            }
         }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .nav-links { display: none; }
-            .portfolio-showcase { grid-template-columns: 1fr; }
-            .content-grid { grid-template-columns: 1fr; }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .portfolio-showcase {
+                grid-template-columns: 1fr;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -509,22 +535,31 @@
             <div class="content-grid">
                 <div class="content-card">
                     <h3>About Me</h3>
-                    <p>I’m a student in Interactive Media Design at Algonquin College with a passion for coding and digital creation. I have experience with HTML, CSS, JavaScript, Python, Java, React, Swift, and TypeScript, and I’m expanding into C#, C++, and Node.js. I also use Adobe After Effects and Blender to combine technical skills with creative design.</p>
+                    <p>I’m a student in Interactive Media Design at Algonquin College with a passion for coding and
+                        digital creation. I have experience with HTML, CSS, JavaScript, Python, Java, React, Swift, and
+                        TypeScript, and I’m expanding into C#, C++, and Node.js. I also use Adobe After Effects and
+                        Blender to combine technical skills with creative design.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>Educational Journey</h3>
-                    <p>I'm currently studying Interactive Media Design at Algonquin College, where I've discovered a strong passion for coding and building digital experiences. This program has been the perfect bridge between my artistic interests and technical abilities.</p>
+                    <p>I'm currently studying Interactive Media Design at Algonquin College, where I've discovered a
+                        strong passion for coding and building digital experiences. This program has been the perfect
+                        bridge between my artistic interests and technical abilities.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>Problem-Solving Passion</h3>
-                    <p>I genuinely enjoy solving problems through code and am excited to turn that passion into a career in software development. Each coding challenge is an opportunity to create something meaningful and functional.</p>
+                    <p>I genuinely enjoy solving problems through code and am excited to turn that passion into a career
+                        in software development. Each coding challenge is an opportunity to create something meaningful
+                        and functional.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>Professional Aspiration</h3>
-                    <p>I'm aiming to start my career as an entry-level software engineer or developer after graduation, combining my creative background with technical expertise to build impactful digital solutions.</p>
+                    <p>I'm aiming to start my career as an entry-level software engineer or developer after graduation,
+                        combining my creative background with technical expertise to build impactful digital solutions.
+                    </p>
                 </div>
             </div>
         </div>
@@ -536,37 +571,47 @@
             <div class="content-grid">
                 <div class="content-card">
                     <h3>Evidence #1: Academic Excellence</h3>
-                    <p>Currently pursuing Interactive Media Design at Algonquin College with demonstrated proficiency in multiple programming languages and frameworks. This educational foundation provides theoretical knowledge combined with practical application.</p>
+                    <p>Currently pursuing Interactive Media Design at Algonquin College with demonstrated proficiency in
+                        multiple programming languages and frameworks. I earned a place on the Dean’s Honour List in my
+                        first semester, recognizing my academic performance and commitment to excellence.</p>
                     <ul class="evidence-list">
+                        <li>Dean’s Honour List – Semester 1</li>
                         <li>Mastery of HTML, CSS, JavaScript fundamentals</li>
                         <li>Advanced knowledge in Python and Java</li>
                         <li>Modern frameworks: React, Swift, TypeScript</li>
                     </ul>
+                    <a href="Deans_Honour_Letter41157882.PDF" target="_blank" class="portfolio-link">
+                        📄 View Official Dean’s Honour Letter
+                    </a>
                 </div>
-                
+
+
                 <div class="content-card">
                     <h3>Evidence #2: Technical Versatility</h3>
-                    <p>Comprehensive skill set spanning front-end and back-end technologies demonstrates adaptability and commitment to continuous learning in the rapidly evolving tech industry.</p>
+                    <p>Comprehensive skill set spanning front-end and back-end technologies demonstrates adaptability
+                        and commitment to continuous learning in the rapidly evolving tech industry.</p>
                     <ul class="evidence-list">
                         <li>Full-stack development capabilities</li>
                         <li>Mobile development with Swift</li>
                         <li>Modern web technologies and best practices</li>
                     </ul>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>Evidence #3: Professional Growth Mindset</h3>
-                    <p>Proactive approach to skill development with clear career objectives and continuous learning goals, including plans to master additional technologies like C#, C++, and Node.js.</p>
+                    <p>Proactive approach to skill development with clear career objectives and continuous learning
+                        goals, including plans to master additional technologies like C#, C++, and Node.js.</p>
                     <ul class="evidence-list">
                         <li>Clear career trajectory planning</li>
                         <li>Commitment to lifelong learning</li>
                         <li>Industry-relevant skill expansion</li>
                     </ul>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>Evidence #4: Creative & Technical Integration</h3>
-                    <p>Strong background in visual media tools such as Adobe After Effects and Blender, enabling the integration of animation, 3D modeling, and video editing into interactive web projects.</p>
+                    <p>Strong background in visual media tools such as Adobe After Effects and Blender, enabling the
+                        integration of animation, 3D modeling, and video editing into interactive web projects.</p>
                     <ul class="evidence-list">
                         <li>3D design and animation with Blender</li>
                         <li>Video editing and motion graphics with After Effects</li>
@@ -583,22 +628,26 @@
             <div class="content-grid">
                 <div class="content-card">
                     <h3>🎯 Immediate Goals</h3>
-                    <p>Secure an entry-level software engineer or developer position after graduation, where I can apply my current skills while continuing to learn and grow in a professional environment.</p>
+                    <p>Secure an entry-level software engineer or developer position after graduation, where I can apply
+                        my current skills while continuing to learn and grow in a professional environment.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>📚 Continuous Learning Plan</h3>
-                    <p>I'm always looking to grow and expand my skills. I plan to learn C#, C++, Node.js, and many more technologies to keep evolving as a developer and stay current with industry trends.</p>
+                    <p>I'm always looking to grow and expand my skills. I plan to learn C#, C++, Node.js, and many more
+                        technologies to keep evolving as a developer and stay current with industry trends.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>🚀 Long-term Vision</h3>
-                    <p>Build a career that combines technical excellence with creative problem-solving, contributing to meaningful projects that make a positive impact on users and businesses.</p>
+                    <p>Build a career that combines technical excellence with creative problem-solving, contributing to
+                        meaningful projects that make a positive impact on users and businesses.</p>
                 </div>
-                
+
                 <div class="content-card">
                     <h3>💡 Professional Development</h3>
-                    <p>Focus on becoming a well-rounded developer who understands both the technical and creative aspects of software development, bridging the gap between design and functionality.</p>
+                    <p>Focus on becoming a well-rounded developer who understands both the technical and creative
+                        aspects of software development, bridging the gap between design and functionality.</p>
                 </div>
             </div>
         </div>
@@ -610,8 +659,10 @@
             <div class="portfolio-showcase">
                 <div class="portfolio-content">
                     <h3>Interactive Media Design Journey</h3>
-                    <p>My portfolio showcases the intersection of creativity and technology, featuring projects that demonstrate both technical proficiency and design thinking. Each project represents a step in my evolution as a developer.</p>
-                    
+                    <p>My portfolio showcases the intersection of creativity and technology, featuring projects that
+                        demonstrate both technical proficiency and design thinking. Each project represents a step in my
+                        evolution as a developer.</p>
+
                     <div class="tech-stack">
                         <span class="tech-item">HTML/CSS</span>
                         <span class="tech-item">JavaScript</span>
@@ -621,14 +672,15 @@
                         <span class="tech-item">Swift</span>
                         <span class="tech-item">TypeScript</span>
                     </div>
-                    
-                    <p><strong>Key Achievements:</strong> Successfully building digital experiences that solve real-world problems while maintaining aesthetic appeal and user-centered design principles.</p>
-                    
+
+                    <p><strong>Key Achievements:</strong> Successfully building digital experiences that solve
+                        real-world problems while maintaining aesthetic appeal and user-centered design principles.</p>
+
                     <a href="https://abdimohamud.framer.website/" target="_blank" class="portfolio-link">
                         View Complete Portfolio →
                     </a>
                 </div>
-                
+
                 <div class="portfolio-visual">
                     <div>
                         <h4>🎨 Design + 💻 Code</h4>
@@ -645,29 +697,33 @@
             <div class="topics-grid">
                 <div class="topic-card">
                     <h3>🚀 Career Transition Strategies</h3>
-                    <p>How can students effectively transition from academic learning to professional software development roles?</p>
+                    <p>How can students effectively transition from academic learning to professional software
+                        development roles?</p>
                 </div>
-                
+
                 <div class="topic-card">
                     <h3>🎯 Skill Prioritization</h3>
-                    <p>Which emerging technologies should new developers focus on to remain competitive in the job market?</p>
+                    <p>Which emerging technologies should new developers focus on to remain competitive in the job
+                        market?</p>
                 </div>
-                
+
                 <div class="topic-card">
                     <h3>🎨 Design-Development Balance</h3>
-                    <p>How important is design thinking in modern software development, and how can developers cultivate both skills?</p>
+                    <p>How important is design thinking in modern software development, and how can developers cultivate
+                        both skills?</p>
                 </div>
-                
+
                 <div class="topic-card">
                     <h3>📈 Industry Preparation</h3>
-                    <p>What practical steps can students take to build industry-ready portfolios and gain relevant experience?</p>
+                    <p>What practical steps can students take to build industry-ready portfolios and gain relevant
+                        experience?</p>
                 </div>
-                
+
                 <div class="topic-card">
                     <h3>🔄 Continuous Learning</h3>
                     <p>How can developers maintain relevance in a rapidly evolving technological landscape?</p>
                 </div>
-                
+
                 <div class="topic-card">
                     <h3>🤝 Professional Networking</h3>
                     <p>What role does community engagement play in career development for aspiring developers?</p>
@@ -736,11 +792,11 @@
 
         // Add interactive hover effects to cards
         document.querySelectorAll('.content-card, .topic-card').forEach(card => {
-            card.addEventListener('mouseenter', function() {
+            card.addEventListener('mouseenter', function () {
                 this.style.transform = 'translateY(-10px) scale(1.02)';
             });
-            
-            card.addEventListener('mouseleave', function() {
+
+            card.addEventListener('mouseleave', function () {
                 this.style.transform = 'translateY(0) scale(1)';
             });
         });
@@ -749,7 +805,7 @@
         const subtitle = document.querySelector('.hero p');
         const text = subtitle.textContent;
         subtitle.textContent = '';
-        
+
         let i = 0;
         const typeWriter = () => {
             if (i < text.length) {
@@ -758,7 +814,7 @@
                 setTimeout(typeWriter, 50);
             }
         };
-        
+
         setTimeout(typeWriter, 1000);
 
         // Add presentation timer (for speaking duration tracking)
@@ -788,15 +844,15 @@
         // Discussion engagement tracker
         let discussionPoints = 0;
         const discussionCards = document.querySelectorAll('.topic-card');
-        
+
         discussionCards.forEach(card => {
-            card.addEventListener('click', function() {
+            card.addEventListener('click', function () {
                 if (!this.classList.contains('discussed')) {
                     this.classList.add('discussed');
                     this.style.background = 'linear-gradient(135deg, #8b6545, #a67c5a)';
                     this.style.color = 'white';
                     discussionPoints++;
-                    
+
                     // Add checkmark
                     if (!this.querySelector('.checkmark')) {
                         const checkmark = document.createElement('span');
@@ -810,4 +866,5 @@
         });
     </script>
 </body>
+
 </html>
